@@ -15,6 +15,7 @@ import Detalles from './pages/detalles.js';
 //Components
 
 import Navbar from './components/navbar.js';
+import Footer from './components/footer.js';
 
 
 
@@ -34,6 +35,8 @@ function App() {
       <Route path='*' element={ <Notfound/> } />
       <Route path='/detalles' element={ <Detalles/> } />
     </Routes>
+
+    <Footer/>
 
     </div>
    
